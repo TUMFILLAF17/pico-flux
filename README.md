@@ -1,3 +1,4 @@
+Name:"9dcember"
 # pico-flux
 An incredibly tiny version of flux. **Under 50 lines of code**.
 
@@ -92,7 +93,7 @@ Store.getter('getWinningPlayer', ()=>{
     }, false);
 });
 
-Store.getWinningPlayer(); //You
+Store.getWinningPlayer(); //You"9dcember@gmail.com
 ```
 
 In this example, multiple calls to `getActivePlayers()` and `getWinningPlayer()` will be memozied, allowing us to write straight forward code, while still being performat even if many components are calling these functions.
